@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seldom Public Relations</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="brand">
+                <h1><span class="highlight">Seldom</span> Public Relations</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="current"><a href="apply.html">Apply</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="newsletter">
+        <div class="container">
+            <h1 class="page.title">Subscribe To Our Newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter Email" required>
+                <button class="button_1">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <h1 id="page.title">Work With Us</h1>
+
+            <div class="slo">     
+                <h3>Vacancy For The Following Offices;</h3>
+                <ul>
+                    <li>I.C.T Personel</li>
+                    <li>Communication Expert</li>
+                    <li>Linguist - Must be well traveled speaking at least 2 international languages</li>
+                    <li>Social Media Manager</li>
+                </ul>
+            </div>
+        
+            <form class="formm">
+                <fieldset>
+                    <div id="fill">
+                        
+                    <h2>Fill this form to apply;</h2>
+                    <h4>Ensure that every detail entered is valid and correct else you will not recieve am email confirmation for screening. </h4>
+    
+                    <!-- <label for="surname" class="font">Surname:</label> -->
+                    <input type="text" id="surname" placeholder="Surname" required>
+    
+                    <!-- <label for="other names" class="font">Other Names:</label> -->
+                    <input type="text" id="other" placeholder="Other Names" required>
+                    
+                    
+                    <!-- <label for="email" class="font">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email" required> -->
+    
+                    <p class="font"> Gender</p>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+    
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+    
+                    <input type="radio" name="gender" id="other" value="other">
+                    <label for="other">Other</label>
+
+                    <br><br>
+            
+                    <label for="date of birth">Date Of Birth: </label>
+                    <input type="date" name="birthday" id="birthday">
+                    <br><br>
+        
+                    <label for="state of origin">State Of origin: </label>
+                    <select>
+                        <option disabled selected>--Select State--</option>
+                        <option value="Abia">Abia</option>
+                        <option value="Adamawa">Adamawa</option>
+                        <option value="Akwa Ibom">Akwa Ibom</option>
+                        <option value="Anambra">Anambra</option>
+                        <option value="Bauchi">Bauchi</option>
+                        <option value="Bayelsa">Bayelsa</option>
+                        <option value="Benue">Benue</option>
+                        <option value="Borno">Borno</option>
+                        <option value="Cross River">Cross River</option>
+                        <option value="Delta">Delta</option>
+                        <option value="Ebonyi">Ebonyi</option>
+                        <option value="Edo">Edo</option>
+                        <option value="Ekiti">Ekiti</option>
+                        <option value="Enugu">Enugu</option>
+                        <option value="FCT">Federal Capital Territory</option>
+                        <option value="Gombe">Gombe</option>
+                        <option value="Imo">Imo</option>
+                        <option value="Jigawa">Jigawa</option>
+                        <option value="Kaduna">Kaduna</option>
+                        <option value="Kano">Kano</option>
+                        <option value="Katsina">Katsina</option>
+                        <option value="Kebbi">Kebbi</option>
+                        <option value="Kogi">Kogi</option>
+                        <option value="Kwara">Kwara</option>
+                        <option value="Lagos">Lagos</option>
+                        <option value="Nasarawa">Nasarawa</option>
+                        <option value="Niger">Niger</option>
+                        <option value="Ogun">Ogun</option>
+                        <option value="Ondo">Ondo</option>
+                        <option value="Osun">Osun</option>
+                        <option value="Oyo">Oyo</option>
+                        <option value="Plateau">Plateau</option>
+                        <option value="Rivers">Rivers</option>
+                        <option value="Sokoto">Sokoto</option>
+                        <option value="Taraba">Taraba</option>
+                        <option value="Yobe">Yobe</option>
+                        <option value="Zamfara">Zamfara</option>
+                    </select>
+                    <br><br>
+    
+                    <label for="lga" class="font">L.G.A:</label>
+                    <input type="text" placeholder="L.G.A" required>
+                    <br><br>
+    
+                    <label for="address" class="font"> Home Address:</label>
+                    <input type="text" placeholder=" Home Address" required>
+                    <br><br>
+
+                    <p class="font">Marital Status</p>
+                        
+                    <input type="radio" name="single" id="single">
+                    <label for="single">Single</label>
+    
+                    <input type="radio" name="married" id="married">
+                    <label for="married">Married</label>
+                    
+                    <input type="radio" name="divorced" id="divorced">
+                    <label for="divorced">Divorced</label>
+
+
+                    <h3>What Are You Applying For?</h3>
+                    <input type="radio" name="apply" value="computer" required>
+                    <label for="computer">I.C.T Personnel</label><br>
+
+                    <input type="radio" name="apply" value="Communication" required>
+                    <label for="Communication">Communication Expert</label><br>
+
+                    <input type="radio" name="apply" value="linguist" required>
+                    <label for="Linguist ">Linguist</label><br>
+
+                    <input type="radio" name="apply" value="social" required>
+                    <label for="Social ">Social Media Manage</label><br>
+
+                    <h3>Level of Computer Literacy</h3>
+                    <select>
+                        <option value="3">Professional</option>
+                        <option value="2">Learner</option>
+                        <option value="1">Novice</option>
+                    </select>
+                    
+                    <h3>Academic Qualifications</h3>
+                    <input type="checkbox" id="PhD">
+                    <label for="phd">PhD</label><br>
+        
+                    <input type="checkbox" id="MS.c">
+                    <label for="Msc">MS.c</label><br>
+        
+                    <input type="checkbox" id="BS.c">
+                    <label for="bsc">BS.c</label><br>
+        
+                    <input type="checkbox" id="O'Level">
+                    <label for="olevel">O'Level</label>
+        
+        
+                    <h3>Further Questions</h3>
+                    <textarea
+                        placeholder="Enter your message here">
+                    </textarea>
+                    <br>
+
+                    <input type="submit" name="" id="">
+                    </div>
+                </fieldset>
+            </form>   
+                
+        </div>
+    </section>
+
+    <footer>
+        <p>Developed by Sparkle for Seldom Public Relations, Copyright &copy; 2023 </p>
+    </footer>
+</body>
+</html>
